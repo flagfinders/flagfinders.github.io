@@ -1,0 +1,10 @@
+/* TEAM */
+Project Developmer: Jared Rigby
+Site: https://www.jaredrigby.co.uk                          
+GitHub: @jazibobs
+Location: Suzhou, China
+
+/* SITE */             
+Last update: 2020/12/19                  
+Standards: HTML5, CSS3         
+Software: VSCode, Pop!_OS

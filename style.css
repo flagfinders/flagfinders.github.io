@@ -1,0 +1,119 @@
+:root {
+    --main-color: #442D81;
+    --second-color: #87F5FB;
+    --third-color: #727FD5;
+    --bg-color: #FDECEE;
+    --light: #fff;
+    --dark: #18102D;
+}
+
+html {
+    box-sizing: border-box;
+    background: var(--dark);
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    line-height: 1.5;
+    background: var(--light);
+    color: var(--dark);
+}
+
+img {
+    max-width: 100%;
+}
+
+h2:after {
+    content: "";
+    display: block;
+    border-bottom: 0.375rem solid var(--second-color);
+    max-width: 4rem;
+    margin-top: 0.25rem;
+}
+
+header {
+    background: var(--main-color);
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    position: relative;
+}
+
+header li:not(:last-child) {
+    margin-right: 1.5rem;
+}
+
+header li a {
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.4s ease;
+}
+
+header li a:hover,
+header li a:active,
+header li a:focus {
+    color: var(--second-color);
+}
+
+header .logo {
+    display: block;
+    width: 17.5rem;
+}
+
+footer {
+    background: var(--dark);
+    color: var(--light);
+    text-align: center;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer li:not(:last-child) {
+    margin-right: 1.5rem;
+}
+
+footer a {
+    color: var(--second-color);
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.hero {
+    text-align: center;
+    background: linear-gradient(180deg, var(--main-color), var(--dark));
+    color: #fff;
+    border-radius: 0 0 5rem 0;
+    min-height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section:nth-child(odd) {
+    background: var(--bg-color);
+}
