@@ -234,6 +234,11 @@ footer a {
     font-size: 1.1rem;
 }
 
+.button.button--disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
 .button:before {
     content: "";
     position: absolute;
