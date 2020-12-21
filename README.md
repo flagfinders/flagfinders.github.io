@@ -1,2 +1,2 @@
 # homepage
-Static homepage for CTF High School
+Static homepage for Flag Finders

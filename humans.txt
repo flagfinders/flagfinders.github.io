@@ -8,3 +8,9 @@ Location: Suzhou, China
 Last update: 2020/12/19                  
 Standards: HTML5, CSS3         
 Software: VSCode, Pop!_OS
+
+/* IMAGES */
+Photography by: Christian Wiediger
+Photography by: Luca Bravo
+Photography by: Philipp Katzenberger
+Photography by: Tianyi Ma
