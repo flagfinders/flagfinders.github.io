@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <img src="img/banner/philipp-katzenberger-iIJrUoeRoCQ-unsplash-m.jpg" 
+        srcset="img/banner/philipp-katzenberger-iIJrUoeRoCQ-unsplash-s.jpg 640w,
+        img/banner/philipp-katzenberger-iIJrUoeRoCQ-unsplash-m.jpg 1920w,
+        img/banner/philipp-katzenberger-iIJrUoeRoCQ-unsplash-l.jpg 2400w"
+        alt="Learn hacking with CTF high school"
+        class="featured-image">
     <header>
         <div class="wrapper">
             <div class="top-bar">
@@ -32,34 +38,61 @@
     </header>
     <main>
         <div class="hero">
-            <div class="wrapper">
+            <div class="wrapper wrapper--no-flex">
                 <h1>
-                    Inspire today<br>
+                    Inspire today,<br>
                     secure tomorrow
                 </h1>
+                <p>Interactive cyber security challenges for high school students and beyond...</p>
             </div>
         </div>
-        <div id="about" class="section">
+        <section id="about" class="section section--first">
             <div class="wrapper">
-                <h2>Our mission</h2>
+                <div class="text-content">
+                    <h2>Our mission</h2>
+                    <p>The world is facing a skills gap in terms of cyber security. Globally there is currently a workforce gap of over 4 million in cyber security.</p>
+                    <p>A common issue is that students do not know these jobs exist, most cyber security courses only <strong>begin</strong> at university level. We want to give younger students a chance to experience the world of cyber security.</p>
+                    <p>CTF (capture the flag) is a type of learning game for cyber security, users are tasked with finding 'flags' hidden within a system which contains in-built vulnerablities.</p>
+                    <p>CTF High School provides level appropriate challenges for students who are new to cyber security so they are prepared to protect systems in the future.</p>
+                    <p><a href="https://app.ctfhigh.school/" class="button">Get started today</a></p>
+                </div>
+                <div class="image-content">
+                    <img src="img/content/tianyi-ma-WiONHd_zYI4-unsplash.jpg">
+                </div>
             </div>
-        </div>
-        <div id="get-involved" class="section">
+        </section>
+        <section id="get-involved" class="section">
             <div class="wrapper">
-                <h2>Get involved</h2>
+                <div class="image-content">
+                    <img src="img/content/christian-wiediger-WkfDrhxDMC8-unsplash.jpg" alt="">
+                </div>
+                <div class="text-content">
+                    <h2>Get involved</h2>
+                    <p>We're currently looking for volunteers to help with the development of the website and the creation of challenges.</p>
+                    <p>All code is open source and available on GitHub.</p>
+                    <p><a href="https://github.com/CTFHighSchool" class="button">Find us on GitHub</a></p>
+                </div>
             </div>
         </div>
-        <div id="support" class="section">
+        <section id="support" class="section">
             <div class="wrapper">
-                <h2>Sponsor us</h2>
+                <div class="text-content">
+                    <h2>Sponsor us</h2>
+                    <p>The hosting infrastructure required for the challenges unfortunately is not free. Please consider supporting us in our mission by donating anything you can for server costs.</p>
+                    <p>We collect donations through Ko-Fi, click the link below to learn more:</p>
+                    <p><a href="https://ko-fi.com/jazibobs" class="button">Support CTF High School</a></p>
+                </div>
+                <div class="image-content">
+                    <img src="img/content/luca-bravo-XJXWbfSo2f0-unsplash.jpg" alt="">
+                </div>
             </div>
-        </div>
+        </section>
     </main>
     <footer>
         <nav class="wrapper">
             <ul>
                 <li><a href="https://github.com/CTFHighSchool">GitHub</a></li>
-                <li><a href="https://ko-fi.com/jazibobs">Support the creator</a></li>
+                <li><a href="https://ko-fi.com/jazibobs">Support Us</a></li>
             </ul>
             <p><small>Web design and development &copy; 2020 Jared Rigby (<a href="https://www.github.com/jazibobs">@jazibobs</a>)</small></p>
         </nav>
